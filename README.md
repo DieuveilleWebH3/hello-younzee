@@ -51,7 +51,7 @@ config :hello, Hello.Repo,
   # This should be the username of our database server, by default it usually is  "postgres"
   username: "**********",  
   
-  # This should be the password of our database server, the one use when PostgreSQL was installed 
+  # This should be the password of our database server, the one used when PostgreSQL was installed 
   password: "**********",  
 
   # This should be the hostname of our database server, running on local it is "localhost" 
