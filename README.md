@@ -48,13 +48,13 @@ We open config/dev.exs and fill the information
 
 # Configure your database
 config :hello, Hello.Repo,
-  # This should be the username of our database, by default it usually is  "postgres"
+  # This should be the username of our database server, by default it usually is  "postgres"
   username: "**********",  
   
-  # This should be the password of our database, the one use when PostgreSQL was installed 
+  # This should be the password of our database server, the one use when PostgreSQL was installed 
   password: "**********",  
 
-  # This should be the hostname of our database, running on loacl it is "localhost" 
+  # This should be the hostname of our database server, running on local it is "localhost" 
   hostname: "**********",  
 
   database: "hello_dev",
